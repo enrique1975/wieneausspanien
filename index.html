@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Weine aus Spanien</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0 user-scalable=no">
+		<meta name="author" content="Enrique Escudero">
+		<link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+		<link rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
+		<link rel="shortcut icon" href="img/pestaña3.png"/>
+		<script  src="js/bodega2.js" async="async"></script>
+		<link rel="manifest" href="manifest.json">
+	</head>
+	<body>
+		<header>
+			<img src="img/bandera1.png" alt="bandera" id="bandera">
+			<p id="nombre">Weine&nbsp; aus &nbsp; Spanien</p>
+			<div id="miCarrito">
+				<div id="botellas">0</div>
+				<input type="button" class="carrito" id="traeCarrito" value="Warenkorb" onclick="factura()"/>
+			</div>
+		</header>
+		<nav>
+			<input type="button" class="button" id="rioja" value="D.O. Rioja" onmouseover="traer(this)" /><br>
+			<input type="button" class="button" id="duero" value="D.O. R. Duero" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="valdepeñas" value="D.O. Valdepeñas" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="rueda" value="D.O. Rueda" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="navarra" value="D.O. Navarra" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="laMancha" value="D.O. La Mancha" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="penedes" value="D.O. Penedes" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="cariñeda" value="D.O. Cariñeda" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="riasBaixas" value="D.O. Rias Baixas" onmouseover="traer(this)"/><br>
+			<input type="button" class="button" id="ribeiro" value="D.O. Ribeiro" onmouseover="traer(this)"/><br>
+		</nav>
+		<div id="submenu" class="submenu">
+		</div>
+		<footer id="pie"><p id="direccion">C.I.F. 50853981-S &nbsp;&nbsp;&nbsp;C/ Oviedo, 8&nbsp;&nbsp; 28020 - Madrid,&nbsp;&nbsp;&nbsp; tlf +0034 636 935 547&nbsp;&nbsp;&nbsp; 
+			<input type="button" class="contacto" id="contactar" onclick="enviarMail()"/>&nbsp;&nbsp;Kontaktieren Sie uns</p><br>
+		</footer>
+	</body>
+</html>
